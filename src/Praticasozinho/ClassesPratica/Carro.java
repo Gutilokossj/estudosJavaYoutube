@@ -45,12 +45,18 @@ public class Carro {
         return "Carro modelo: " + modelo + ", ano: " + ano;
     }
 
+    String estado(){
+    return ligado ? "Carro está ligado" : "Carro está desligado";
+}
+
+
     public static void main(String[] args) {
         Carro carroDoGus = new Carro();
         carroDoGus.ligar();
-        String modeloCarro = carroDoGus.info();
+        String modeloCarro = carroDoGus.info();  //pode ser assim também -         System.out.println(carroDoGus.info());
         System.out.println(modeloCarro);
         carroDoGus.desligar();
+        System.out.println(carroDoGus.estado()); //Exemplo de como puxar a informação STRING
     }
     
 }

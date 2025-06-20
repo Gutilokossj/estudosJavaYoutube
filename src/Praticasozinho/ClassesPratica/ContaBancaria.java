@@ -52,6 +52,6 @@ public class ContaBancaria {
         ContaBancaria contaDoGus = new ContaBancaria();
         contaDoGus.depositar(100);
         contaDoGus.sacar(2000);
-        contaDoGus.consultarSaldo();
+        System.out.println(contaDoGus.consultarSaldo());
     }
 }
