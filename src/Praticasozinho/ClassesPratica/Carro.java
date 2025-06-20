@@ -28,7 +28,7 @@ Teste suas classes criando um método main para instanciar objetos e chamar os m
  */
 public class Carro {
     String modelo = "UNO";
-    int ano = 2012;
+    int ano = 2022;
     boolean ligado = false;
 
     void ligar(){

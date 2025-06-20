@@ -25,7 +25,7 @@ public class App {
         String saudacao = "Olá, Guti!";
         System.out.println(saudacao);
 
-        Despertador despertador;
-        Timer timer;
+        Despertador despertador; // não foi usado, só exemplos
+        Timer timer; // não foi usado, só exemplos.
     }
 }

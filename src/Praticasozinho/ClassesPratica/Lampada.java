@@ -34,6 +34,8 @@ public class Lampada {
         System.out.println("Lâmpada ligada");
     }
 
+
+
     void desligar(){
         ligada = false;
         System.out.println("Lâmpada desligada");
