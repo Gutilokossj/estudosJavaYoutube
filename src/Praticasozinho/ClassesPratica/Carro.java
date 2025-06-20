@@ -27,5 +27,30 @@ Lembre-se de criar métodos que modificam e retornam dados da classe (como nos e
 Teste suas classes criando um método main para instanciar objetos e chamar os métodos.
  */
 public class Carro {
+    String modelo = "UNO";
+    int ano = 2012;
+    boolean ligado = false;
+
+    void ligar(){
+        ligado = true;
+        System.out.println("Carro ligado");
+    }
+
+    void desligar(){
+        ligado = false;
+        System.out.println("Carro desligado");
+    }
+
+    String info(){
+        return "Carro modelo: " + modelo + ", ano: " + ano;
+    }
+
+    public static void main(String[] args) {
+        Carro carroDoGus = new Carro();
+        carroDoGus.ligar();
+        String modeloCarro = carroDoGus.info();
+        System.out.println(modeloCarro);
+        carroDoGus.desligar();
+    }
     
 }
