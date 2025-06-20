@@ -1,3 +1,7 @@
+package br.com.giulianabezerra.relogio;
+
+import br.com.giulianabezerra.cronometro.Timer;
+
 public class App {
 
     void metodo() {
@@ -20,5 +24,8 @@ public class App {
         */
         String saudacao = "Olá, Guti!";
         System.out.println(saudacao);
+
+        Despertador despertador;
+        Timer timer;
     }
 }
